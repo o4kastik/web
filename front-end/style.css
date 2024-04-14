@@ -29,19 +29,29 @@ body {
   }
   
   .login-form-field {
+    width: 300px;
+    height:30px;
     border: none;
     border-bottom: 1px solid #3a3a3a;
-    margin-bottom: 10px;
-    border-radius: 3px;
+    
+    border-radius: 10px;
     outline: none;
     padding: 0px 0px 5px 5px;
   }
+  #username-field {
+    margin-top:100px;
+  }
+  #password-field{
+    margin:20px;
+  }
   
   #login-form-submit {
-    width: 100%;
+    width: 100px;
+    height:30px;
+    margin: 10px;
     padding: 7px;
     border: none;
-    border-radius: 5px;
+    border-radius:10px;
     color:black;
     font-weight: bold;
     background-color: white;
@@ -49,12 +59,41 @@ body {
     outline: none;
   }
 
-  #block {
+   #block {
     display: block;
-    position: relative;
-    top: 100px;
-    left:900px;
+    position:absolute;
+     top: 100px;
+    left:900px; 
     
 
+  } 
+  #login-header{
+    position: relative;
+    left:200px;
   }
+  
+   #account {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    background-color:#464F5E;
+    border-radius: 50px;
+    display: block;
+    
+    position:absolute;
+    top:600px;
+    left:950px;
+
+  } 
+   .text{
+    text-align: center;
+    padding-top:15px ;
+  } 
+
+  .photo1{
+    position: relative;
+    left:200px;
+  }
+ 
+
   
