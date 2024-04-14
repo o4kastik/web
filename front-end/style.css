@@ -68,6 +68,7 @@ body {
 
   } 
   #login-header{
+    color:white;
     position: relative;
     left:200px;
   }
@@ -86,6 +87,7 @@ body {
 
   } 
    .text{
+    color:white;
     text-align: center;
     padding-top:15px ;
   } 
@@ -93,6 +95,9 @@ body {
   .photo1{
     position: relative;
     left:200px;
+  }
+  a[href]{
+    color: red;
   }
  
 
