@@ -1,0 +1,21 @@
+body {
+    background-color: #303841;
+
+}
+
+
+.link_menu {
+    font-size: 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 11px 25px;
+    margin: 25px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: 2px solid transparent;
+}
+
+.link_menu:hover {
+    background-color: #515151;
+}
