@@ -61,7 +61,8 @@ body {
 
 .prof {
   position: relative;
-  margin-right: 20px;
+  padding: 10px 25px;
+  margin-bottom: 20px;
 }
 
 .prof button {
