@@ -16,14 +16,25 @@ body {
   justify-items: center;
   align-items: center;
 }
-.header {
-  padding-top: 30px;
-  background-color: #69717c;
-  display: grid;
-  border-radius: 50px;
-  box-shadow: 0px 0px 5px 2px black;
-}
 
+.navigation {
+  /*полный верх*/
+  position: fixed; /* что бы элемент всегда был на месте*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #69717c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  height: 20px;
+  filter: blur(30px);
+}
+.logo {
+  color: white;
+}
 .login-form-field::placeholder {
   color: #3a3a3a;
 }
