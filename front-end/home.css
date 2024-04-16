@@ -54,6 +54,14 @@ body {
 .link_nav:hover {
   background-color: #aca499;
 }
+.vl {
+  border-left: 1px solid black;
+  height: 900px;
+  position: relative;
+  left: 20%;
+  margin-left: -3px;
+  top: 0;
+}
 
 .logo {
   color: white;
