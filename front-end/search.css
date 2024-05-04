@@ -33,6 +33,7 @@ body {
 #note {
   color: black;
 }
+
 .img-menu {
   position: relative;
   bottom: 14px;
@@ -45,7 +46,7 @@ body {
 .link_nav {
   color: white;
   text-decoration: none;
-  padding: 10px 25px;
+  padding: 5px 25px;
   margin: 0px 10px;
   border-radius: 5px;
   transition: background-color 0.3s;
@@ -59,10 +60,9 @@ body {
   height: 900px;
   position: relative;
   left: 10%;
-  margin-left: -3px;
+  margin-left: -80px;
   top: 0;
 }
-
 .logo {
   color: white;
 }
@@ -89,7 +89,7 @@ body {
   background-color: #d7d6d4;
   position: fixed;
   top: 59px;
-  left: 0;
+  left: -30px;
   text-align: left;
 }
 
@@ -103,6 +103,8 @@ body {
   border-radius: 5px;
   transition: background-color 0.3s;
   border: 2px solid transparent;
+  width: 20px;
+  height: 20px;
 }
 
 .link_menu:hover {
@@ -110,7 +112,7 @@ body {
 }
 
 .hr_menu {
-  width: 100px;
+  width: 85px;
 }
 
 .face {
